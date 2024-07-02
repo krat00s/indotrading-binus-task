@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/indotrading-binus-task/static/css/main.8321a6f1.css",
+    "main.css": "/indotrading-binus-task/static/css/main.bb25a122.css",
     "main.js": "/indotrading-binus-task/static/js/main.66a5ca8a.js",
     "static/js/453.a4fe69cf.chunk.js": "/indotrading-binus-task/static/js/453.a4fe69cf.chunk.js",
     "static/media/lkpp.png": "/indotrading-binus-task/static/media/lkpp.2340451cb81f54e4a685.png",
@@ -8,12 +8,12 @@
     "static/media/bela.png": "/indotrading-binus-task/static/media/bela.7e4748a3611ba3da8f4b.png",
     "static/media/google-play-badge.png": "/indotrading-binus-task/static/media/google-play-badge.e18d57b706f18526e070.png",
     "index.html": "/indotrading-binus-task/index.html",
-    "main.8321a6f1.css.map": "/indotrading-binus-task/static/css/main.8321a6f1.css.map",
+    "main.bb25a122.css.map": "/indotrading-binus-task/static/css/main.bb25a122.css.map",
     "main.66a5ca8a.js.map": "/indotrading-binus-task/static/js/main.66a5ca8a.js.map",
     "453.a4fe69cf.chunk.js.map": "/indotrading-binus-task/static/js/453.a4fe69cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8321a6f1.css",
+    "static/css/main.bb25a122.css",
     "static/js/main.66a5ca8a.js"
   ]
 }
