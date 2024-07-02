@@ -12,6 +12,7 @@
 .product-category h2{
     font-size: 24px;
     margin-bottom: 20px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .product-items {
@@ -22,7 +23,7 @@
 
 .product-item{
     background-color: white;
-    border: 0.5px solid #cccccc;
+    /* border: 0.5px solid #cccccc; */
     border-radius: 5px;
     width: 12%;
     overflow: hidden;
@@ -67,4 +68,17 @@
 .product-location{
     color: #800020;
     font-weight: 500;
+}
+
+@media (max-width: 800px) {
+   .product-items{
+        flex-direction: column;
+        
+   } 
+   .product-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    
+   }
 }

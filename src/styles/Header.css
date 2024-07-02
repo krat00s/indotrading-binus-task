@@ -2,8 +2,13 @@
     margin: 0px 10px 0px 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .mid-header{
         margin: 0px 15px 0px 15px;;
+        display: flex;
+        flex-direction: column;
+        
     }
+
+    
 }

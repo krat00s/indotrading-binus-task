@@ -132,15 +132,12 @@ col ul, li{
 
 .row ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.row li{
-    display: inline-block;
-    
-}
 
 .row li::before{
     content: "|";
@@ -174,14 +171,33 @@ col ul, li{
 }
 
 .row span a:hover{
-    color: #018bc9
+    color: #018bc9;
     ;
 }
 
 .row .trademark p a {
-    color: white
+    color: white;
+    
 }
 
 .row .trademark{
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.bottom .row img {
+    width: 10%;
+    margin: 0px 5px;
+}
+
+@media (max-width: 800px){
+    .top{
+        flex-direction: column;
+    }
+    .row .trademark{
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
