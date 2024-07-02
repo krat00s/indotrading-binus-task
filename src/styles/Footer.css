@@ -1,0 +1,187 @@
+.footer-wrapper{
+    background-color: #484444;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 40px 0px 20px;
+    color: #dcdce4;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.top h1{
+    font-size: 18px;
+    margin: 20px 0px;
+    color: white;
+}
+.top p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.col{
+    padding: 0px 20px;
+    max-width: 33.333333%;
+    
+}
+
+.col a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #dcdce4;
+}
+
+.col a:hover{
+    color: white;
+}
+
+col ul, li{
+    list-style: none;
+    margin-bottom: 10px;
+    max-width: 100%;
+    
+}
+
+.btn-lang-vert{
+    margin: 20px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: block;
+    border: 2px solid #dcdce4;
+    width: fit-content;
+    text-align: center;
+    
+}
+
+
+
+.btn-lang-vert span{
+    background-color: #dcdce4;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+
+
+.btn-lang-vert a{
+    background-color: #484444;
+    padding: 10px 16px;
+}
+.btn-lang{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px;
+}
+
+.btn-lang-vert .btn-active{
+    font-weight: 500;
+}
+
+.btn-lang-vert .btn-lang:hover{
+    background-color: #dcdce4;
+    color: black;
+    
+}
+
+.socmed-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.socmed-icons li{
+    display: inline-block;
+    
+}
+
+.socmed-icons a{
+    color: #dcdce4;
+    font-size: 24px;
+    
+    
+}
+
+.partner-logo img{
+    width: 200px;
+}
+
+/* bottom */
+.container-bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bottom .row{
+    margin-bottom: 20px;
+}
+
+.row .locations ul{
+    margin-bottom: -10px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #dcdce4;
+}
+
+.row ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.row li{
+    display: inline-block;
+    
+}
+
+.row li::before{
+    content: "|";
+    position: absolute;
+    color: white;
+    margin: 0px -10px;
+
+}
+
+.row li:first-child::before{
+    content: "";
+}
+
+.row a{
+    text-decoration: none;
+    color: #dcdce4;
+}
+
+.row a:hover{
+    color: white;
+}
+
+.row span, img{
+    
+    justify-content: center;
+}
+
+.row span a{
+    color: #018bc9;
+    
+}
+
+.row span a:hover{
+    color: #018bc9
+    ;
+}
+
+.row .trademark p a {
+    color: white
+}
+
+.row .trademark{
+    margin-bottom: 20px;
+}
